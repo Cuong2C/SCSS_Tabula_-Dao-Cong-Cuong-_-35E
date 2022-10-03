@@ -1,0 +1,259 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.rightmenu__button {
+  color: #ffffff;
+  background-color: #b61984;
+  border-radius: 50px;
+  border-color: #b61984;
+  padding: 13px 20px;
+  box-shadow: 0;
+  transition: all 1.5s ease;
+}
+.rightmenu__button:hover {
+  color: #b61984;
+  background-color: #ffffff;
+  display: inline-block !important;
+  cursor: pointer;
+}
+
+.Tacontact__right button {
+  margin-top: 40px;
+  color: #ffffff;
+  background-color: #b61984;
+  border-radius: 50px;
+  border-color: #b61984;
+  padding: 13px 20px;
+  box-shadow: 0;
+  transition: all 1.5s ease;
+  padding: 13px 60px;
+}
+.Tacontact__right button:hover {
+  color: #b61984;
+  background-color: #ffffff;
+  display: inline-block !important;
+  cursor: pointer;
+}
+
+.Tafooter .col-3 button {
+  margin: 40px 0;
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  border-color: white;
+  padding: 13px 20px;
+  box-shadow: 0;
+  transition: all 1.5s ease;
+}
+.Tafooter .col-3 button:hover {
+  color: #ffffff;
+  background-color: #b61984;
+  display: inline-block !important;
+  cursor: pointer;
+}
+.Tafooter .col-3 input {
+  color: #ffffff;
+  background-color: #b61984;
+  border-radius: 50px;
+  border-color: #b61984;
+  padding: 13px 20px;
+  box-shadow: 0;
+  transition: all 1.5s ease;
+  border: 1px white;
+}
+.Tafooter .col-3 input::-moz-placeholder {
+  color: white;
+  opacity: 1;
+}
+.Tafooter .col-3 input:-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+.Tafooter .col-3 input::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+header .navbar {
+  padding: 0;
+  background-color: transparent;
+  font-size: 13px;
+}
+header .navbar img {
+  width: 80px;
+  margin-right: 200px;
+}
+header .navbar .nav-item a {
+  color: #181818;
+  line-height: 48px;
+  font-weight: 600;
+  margin-right: 35px;
+  padding: 0;
+  transition: all 0.5s;
+}
+header .navbar .nav-item a:hover {
+  color: #b61984;
+  cursor: pointer;
+}
+header .navbar .rightmenu .rightmenu__icon {
+  margin-left: 10px;
+}
+header .navbar .rightmenu .rightmenu__icon i, header .navbar .rightmenu .rightmenu__icon .Tafooter .row span, .Tafooter .row header .navbar .rightmenu .rightmenu__icon span {
+  margin: 5px;
+  transition: all 0.5s;
+}
+header .navbar .rightmenu .rightmenu__icon i:hover, header .navbar .rightmenu .rightmenu__icon .Tafooter .row span:hover, .Tafooter .row header .navbar .rightmenu .rightmenu__icon span:hover {
+  color: #b61984;
+  cursor: pointer;
+}
+
+.TaCarousel__content {
+  margin-top: -150px;
+  margin-bottom: -200px;
+  display: flex;
+  justify-content: center;
+}
+.TaCarousel__content .TaCarousel__left {
+  margin: auto 0;
+  width: 35%;
+}
+.TaCarousel__content .TaCarousel__left h5 {
+  color: #b61984;
+}
+.TaCarousel__content .TaCarousel__left h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.TaCarousel__content .TaCarousel__right {
+  width: 40%;
+}
+
+.TaListItem {
+  position: relative;
+  background-color: #dcd1f3;
+}
+.TaListItem .container {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  transform: translate(50%, 0);
+}
+.TaListItem .container .row .col-3 .card {
+  background-color: transparent;
+  padding: 0 18px;
+  border: none;
+  border-radius: 15px;
+  transition: all 5s ease-in-out;
+}
+.TaListItem .container .row .col-3 .card .coverimg {
+  overflow: hidden;
+  border-radius: 15px 15px 0 0;
+}
+.TaListItem .container .row .col-3 .card .coverimg .card-img-top {
+  transition: all 1s;
+}
+.TaListItem .container .row .col-3 .card .coverimg .card-img-top:hover {
+  transform: scale(1.2);
+}
+.TaListItem .container .row .col-3 .card .card-body {
+  background-color: white;
+  text-align: center;
+  border-radius: 0 0 15px 15px;
+  transition: all 1s;
+}
+.TaListItem .container .row .col-3 .card .card-body p:first-child {
+  margin: 0;
+  color: #b61984;
+  font-size: 12px;
+  font-weight: 600;
+}
+.TaListItem .container .row .col-3 .card .card-body p:last-child {
+  margin-bottom: 20px;
+}
+.TaListItem .container .row .col-3 .card:hover .card-body {
+  box-shadow: 0 25px 25px #dddddd;
+}
+.TaListItem .TaCarousel__bg {
+  padding-top: 350px;
+}
+
+.Tacontact {
+  margin-top: 80px;
+  background-image: url(../../Image/accent_bottom_wave_01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Tacontact .Tacontact__content {
+  display: flex;
+  justify-content: center;
+}
+.Tacontact .Tacontact__content .Tacontact__left {
+  width: 40%;
+  height: 500px;
+}
+.Tacontact .Tacontact__content .Tacontact__right {
+  width: 25%;
+  padding: 30px 10px;
+  box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  background-color: #fff;
+}
+.Tacontact .Tacontact__content .Tacontact__right h1 {
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+.Tacontact .Tacontact__content .Tacontact__right .input-group .input-group-prepend .input-group-text {
+  color: #b61984;
+  background-color: transparent;
+  border-right: none;
+  border-radius: 20px 0 0 20px;
+}
+.Tacontact .Tacontact__content .Tacontact__right .input-group .form-control {
+  border-left: none;
+  border-radius: 0 20px 20px 0;
+}
+.Tacontact .Tacontact__content .Tacontact__right .input-group .custom-select {
+  border-left: none;
+  border-radius: 0 20px 20px 0;
+}
+.Tacontact .Tacontact__content .Tacontact__right .input-group .input__span .input-group-text {
+  display: block;
+}
+.Tacontact .Tacontact__content .Tacontact__right .input-group .input__textarea {
+  height: 120px;
+}
+
+.Tafooter {
+  background-image: url(../../Image/footer_background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 180px;
+  padding-bottom: 320px;
+}
+.Tafooter .row {
+  color: white;
+}
+.Tafooter .row h4 {
+  margin-bottom: 25px;
+}
+.Tafooter .row i, .Tafooter .row span {
+  margin: 10px 5px;
+  font-size: 14px;
+}
+.Tafooter .row p {
+  font-size: 14px;
+  padding-bottom: 5px;
+  width: 30%;
+  box-shadow: 0px 7px 6px -6px rgb(153, 1, 113);
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,40 @@
+.rightmenu__button{
+    @include styleButton($white-1, $fs-4, $fs-5, $pink-1, $fs-1,$fs-6);
+   
+   &:hover{
+    @include buttonhover($white-1, $pink-1);
+   }
+}
+
+.Tacontact__right{
+    button{
+        margin-top: 40px;
+        @include styleButton($white-1, $fs-4, $fs-5, $pink-1, $fs-1,$fs-6);
+        padding: 13px 60px;
+        &:hover{
+            @include buttonhover($white-1, $pink-1);
+           }
+    }
+}
+
+.Tafooter{
+    .col-3{
+        button{
+            margin: 40px 0;
+            @include styleButton(black, $fs-4, $fs-5, white, $fs-1,$fs-6);
+            &:hover{
+                @include buttonhover($pink-1, $white-1);
+               }
+        }
+        input{
+            @include styleButton($white-1, $fs-4, $fs-5, $pink-1, $fs-1,$fs-6);
+            border: 1px white;
+            &::placeholder{
+                color: white;
+                opacity: 1;
+            }
+
+            
+        }
+    }
+}

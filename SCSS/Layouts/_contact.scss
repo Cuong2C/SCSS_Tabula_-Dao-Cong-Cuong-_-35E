@@ -1,0 +1,65 @@
+.Tacontact {
+    margin-top: 80px;
+    background-image: url(../../Image/accent_bottom_wave_01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    .Tacontact__content {
+        display: flex;
+        justify-content: center;
+
+        .Tacontact__left {
+            width: 40%;
+            height: 500px;
+           
+        }
+        .Tacontact__right {
+                
+            width: 25%;
+            padding: 30px 10px;
+            box-shadow: 0 30px 30px -10px rgb(0 0 0 / 20%);
+            border-radius: 15px;
+            background-color: #fff;
+          
+
+            h1 {
+                text-align: center;
+                font-weight: bold;
+                letter-spacing: 2px;
+                margin-bottom: 50px;
+            }
+            .input-group{
+                
+                .input-group-prepend{
+                    
+                    .input-group-text{
+                        color: $pink-1;
+                        background-color: transparent;
+                        border-right: none;
+                        border-radius: 20px 0 0 20px;
+                    }
+                    
+                }
+                .form-control{
+                    border-left: none;
+                    border-radius: 0 20px 20px 0;
+                }
+                .custom-select{
+                    border-left: none;
+                    border-radius: 0 20px 20px 0;
+                }
+                .input__span{
+                    .input-group-text{
+                        display: block;
+                    }
+                }
+                .input__textarea{
+                    height: 120px;
+                }
+               
+            }
+            
+        }
+    }
+}

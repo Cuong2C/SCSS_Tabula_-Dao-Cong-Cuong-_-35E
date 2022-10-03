@@ -1,0 +1,21 @@
+@mixin styleButton($color,$boder, $radius, $bgcolor,$p-top,$p-left) {
+    color: $color;
+    background-color: $bgcolor;
+    border-radius: $radius;
+    border-color: $bgcolor;
+    padding: $p-top $p-left;
+    box-shadow: 0;
+    transition: all 1.5s ease;
+}
+
+@mixin buttonhover($bgcolor, $color) {
+    color: $color;
+    background-color: $bgcolor;
+    display: inline-block !important;
+    cursor: pointer;
+}
+
+@mixin  textIconHover($textcolor) {
+    color: $textcolor;
+    cursor: pointer;
+}

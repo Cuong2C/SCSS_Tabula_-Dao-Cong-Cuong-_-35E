@@ -1,0 +1,62 @@
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+
+    
+
+    
+    .navbar {
+        padding: 0;
+        background-color: transparent;
+        font-size: $fs-1;
+
+        img {
+            width: $fs-2;
+            margin-right: 200px;
+        }
+
+        .nav-item {
+
+            a {
+                color: $black-1 ;
+                line-height: 48px;
+                font-weight: 600;
+                margin-right: 35px;
+                padding: 0;
+                transition: all 0.5s;
+                &:hover{
+                     @include textIconHover($pink-1);
+                }
+            }
+        }
+        .rightmenu{
+            .rightmenu__icon{
+                margin-left: 10px;
+                i{
+                    margin: 5px;
+                    transition: all 0.5s;
+                     &:hover{
+                        @include textIconHover($pink-1);
+                     }
+                }
+            }
+        }
+    }
+
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    box-shadow: 0 0 10px 0 rgb(204 204 204 / 50%);
+    background-color: $color-white-1;
+    animation: smoothScroll 0.5s;
+    .navbar-brand{
+        display: none !important;
+    }
+    &::after{
+        display: none;
+    }
+}

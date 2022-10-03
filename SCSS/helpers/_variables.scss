@@ -1,0 +1,31 @@
+// color
+$white-1:#ffffff;
+
+
+$black-1: #181818;
+
+$pink-1:#b61984;
+
+&.sticky{
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    box-shadow: 0 0 10px 0 rgb(204 204 204 / 50%);
+    background-color: $color-white-1;
+    animation: smoothScroll 0.5s;
+    .navbar-brand{
+        display: none !important;
+    }
+    &::after{
+        display: none;
+    }
+}
+
+//font size
+$fs-1:13px;
+$fs-2:80px;
+
+$fs-4:1px;
+$fs-5:50px;
+$fs-6:20px;
+$fs-0: 0;

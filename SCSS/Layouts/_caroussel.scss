@@ -1,0 +1,22 @@
+.TaCarousel__content{
+    margin-top: -150px;
+    margin-bottom: -200px;
+    display: flex;
+    justify-content: center;
+    .TaCarousel__left{
+       margin: auto 0;
+        width: 35%;
+        h5{
+            color: $pink-1 ;
+        }
+        h1{
+            font-size: 60px;
+            font-weight:  bold;
+        }
+        
+    }
+    .TaCarousel__right{
+       
+        width: 40%;
+    }
+}
